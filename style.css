@@ -1,0 +1,44 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: greenyellow;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+}
+
+.navlinks li a {
+  color: #2b2b2b;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+  flex: 1;
+}
+
+.navlinks li a:hover {
+  color: #2b2bb2;
+}
+
+.userinfo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.avatar {
+  width: 50px;
+}
+
+.username {
+  display: block;
+}
+
+.avatar,
+.username {
+  flex: 2;
+}
